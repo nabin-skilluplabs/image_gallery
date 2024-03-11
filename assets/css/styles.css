@@ -33,6 +33,10 @@ h2 {
     object-fit: cover;
     height: 100%;
     width: 100%;
+    cursor: pointer;
+}
+.gallery-container  img:hover{
+    opacity: 0.8;
 }
 
 .gallery-container div:nth-child(1) {
@@ -67,7 +71,7 @@ h2 {
     right: 0;
     bottom: 0;
     z-index: 2;
-   
+   display: none;
 }
 
 .large-image img {
